@@ -4,13 +4,15 @@
 
 ## Table of contents
 * [General info](#general-info)
+* [Screen shots](#screen-schots)
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Features](#features)
 
 ## General info
-Application that allows the user to save, rate and review cultural texts. 
-The main inspiration for the creation of this application were such websites as [IMDB](https://www.imdb.com/), [Filmweb](https://www.filmweb.pl/), [MAL](https://myanimelist.net/) but in local, diary-like way.
+Application that allows the user to save, rate and review cultural texts. The main inspiration for the creation of this application were such websites as [IMDB](https://www.imdb.com/), [Filmweb](https://www.filmweb.pl/), [MAL](https://myanimelist.net/) but in local, diary-like way.
+
+## Screeen shots
 
 ## Technologies
 Project is created with:
