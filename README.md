@@ -17,7 +17,8 @@ Aplikacja nazwana „Rate Mate”, służy do oceniania dzieł kultury, które w
 
 ## Features
 a.	Menu główne
-Po włączeniu aplikacji ukazuje się użytkownikowi ekran główny zaprezentowany na zdj. 1. 
+Po włączeniu aplikacji ukazuje się użytkownikowi ekran główny zaprezentowany na zdj. 1.
+
 ![Main menu](./images/MainManu.png)
 
 ## Technologies
