@@ -10,40 +10,47 @@
 * [Features](#features)
 
 ## General info
-Application that allows the user to save, rate and review cultural texts. The main inspiration for the creation of this application were such websites as [IMDB](https://www.imdb.com/), [Filmweb](https://www.filmweb.pl/), [MAL](https://myanimelist.net/) but in local, diary-like way.
 
-Aplikacja nazwana „Rate Mate”, służy do oceniania dzieł kultury, które widział użytkownik. Działa w oparciu o bazę danych. Użytkownik dodaje do aplikacji różne filmy, książki, gry itp. które obejrzał/przeczytał/zagrał i wystawia im ocenę oraz ewentualnie może dodać opis dzieła oraz jego recenzje. Aplikacja pozwala na przeglądanie, filtrowanie i sortowanie dodanych pozycji. Dodatkowo można wyświetlać proste statystyki w postaci ilości wszystkich obejrzanych dzieł i ich średniej oceny, a także statystyki w poszczególnych kategoriach np. filmów.
-	Do realizacji aplikacji użyłem bazy danych w której przechowywane są dane wprowadzone przez użytkownika.
+The application, called "Rate Mate", is used to rate the works of culture that the user has seen. The user adds to the application various movies, books, games, etc. that he has watched / read / played and gives them a rating, and possibly add a description of the work and its reviews. The application allows you to view, filter and sort the added items. Additionally, you can display simple statistics in the form of the number of all watched works and their average rating, as well as statistics in individual categories, e.g. films.
+	
+To implement the application, I used a database in which data entered by the user is stored.
+
+The main inspiration for the creation of this application were such websites as [IMDB](https://www.imdb.com/), [Filmweb](https://www.filmweb.pl/), [MAL](https://myanimelist.net/) but in local, diary-like way.
 
 ## Features
-a.	Menu główne
-Po włączeniu aplikacji ukazuje się użytkownikowi ekran główny zaprezentowany na zdj. 1.
+### Main Menu
+After starting the application, the user is presented with the main screen presented in the photo below.
 
 ![Main menu](./images/MainManu.png)
-Z poziomu tego ekranu użytkownik ma dostęp do trzech głównych funkcjonalności. Każdy z przycisków otwiera nową aktywność i przenosi do niej użytkownika: 
-•	Dodawania nowego tekstu – ADD NEW,
-•	Wyświetlania listy swoich tekstów kultury – VIEW YOUR CULTURE LIST,
-•	Wyświetlania statystyk użytkownika – VIEW STATISTICS.
 
-b.	Dodawanie nowego tekstu
-Dodawanie nowego tekstu zostało zaprezentowane za zdj. 2. i 3.
+From this screen, the user has access to three main functionalities. Each button opens a new activity and takes the user to it:
+•	Adding new culture text – ADD NEW,
+•	View a list of your culture texts – VIEW YOUR CULTURE LIST,
+•	View user statistics – VIEW STATISTICS.
 
-Zdj. 2
+### Adding new culture text
+Adding a new text is presented in the three nextphotos.
+
+![Add culture text](./images/AddCultureText.png)
   
-Zdj. 3
- 
-Zdj. 4
+![Add culture text - filled](./images/AddCultureTextFilled.png)
 
-Jak widać na zdj. 2. użytkownik podaje nazwę tekstu kultury, wybiera z rozwijanej listy kategorie tekstu i podaje datę wydania za pomocą przycisku, który otwiera kalendarz (zdj. 3.) Następnie użytkownik może wpisać opis tekstu oraz swoją krótką recenzje. Co ważne, jedynymi obowiązkowymi polami do wypełnienia jest nazwa i data wydania. 
-Ta aktywność opiera się o typ layoutu „ScrollView”. Polega ona na tym, że użytkownik może przewijać ekran niczym przeglądarkę na urządzeniu mobilnym. Dzięki takiemu rozwiązaniu wpisany opis i recenzja nie „zwijają się” we własnych polach tekstowych tylko rozszerzają widok, który można przewinąć przez co ekran jest bardziej przejrzysty.
-Na dole ekranu umieszczone zostały dwa przyciski: ADD – służący do dodania pozycji, którą użytkownik wpisał oraz VIEW YOUR CULTURE LIST – służący do wyświetlenia listy tekstów użytkownika. Po naciśnięciu przycisku ADD pojawia się komunikat o tym czy udało się dodać pozycję do listy czy nie.
+![Date Picker](./images/DatePicker.png)
 
-c.	Wyświetlanie listy tekstów kultury
-Wyświetlanie listy tekstów kultury zostało zaprezentowane na zdj. 5. i zdj. 6.
+As shown in the first picture the user enters the name of the culture text, selects the text categories from the drop-down list and provides the date of publication using the button that opens the calendar (third photo). Then the user can enter a description of the text and a short review. Importantly, the only mandatory fields to be filled in are the name and the date of issue.
+
+This activity is based on the layout type "ScrollView". It consists in the fact that the user can scroll the screen like a browser on a mobile device. Thanks to this solution, the entered description and review do not "curl" in their own text fields, but only expand the view that can be scrolled, which makes the screen more transparent.
+
+There are two buttons at the bottom of the screen: ADD - to add an item that the user has entered and VIEW YOUR CULTURE LIST - to display the list of user texts. After pressing the ADD button, a message appears whether the item was added to the list or not.
+
+
+### View culture texts list
+Displaying the list of cultural texts is presented in the next two pictures.
 
 Zdj. 5
 
 Zdj. 6
+
 Użytkownik może zobaczyć tutaj dodane przez siebie teksty w postaci listy utworzonej przy użyciu „ListView”. Dodatkowo można organizować wyświetlanie listy przez:
 •	Wyszukiwanie (przycisk lupy w prawym górnym rogu) po nazwie, kategorii, roku wydania itp.
 •	Wyświetlanie kategorii (przy użyciu górnego „Spinnera” – rozwijanej listy) np. film, książka
@@ -57,12 +64,14 @@ d.	Edytowanie tekstu kultury
 Edytowanie listy tekstów kultury zostało zaprezentowane na zdj. 7. i polega wybraniu tekstu poprzez kliknięcie na niego z poziomu widoku listy tekstów kultury.
 
 Zdj. 7
+
 Ten widok jest zmodyfikowaną wersją dodawania nowej pozycji. Poza informacją o tym, że użytkownik edytuje teraz pozycje dodano datę dodania pozycji. Zmodyfikowano również przyciski na dole. Są to teraz przyciski DELETE i SAVE. DELETE służy do usunięcia wybranego rekordu, a SAVE do zapisania zmian w pozycji. Po kliknięciu każdego z tych przycisków użytkownik jest przekierowywany do widoku listy tekstów kultury. 
 
 e.	Statystyki
 Statystyki użytkownika zostały pokazana na zdj. 8.
  
 Zdj. 8
+
 Ta aktywność pozwala na wyświetlanie statystyk dla poszczególnych kategorii tekstów lub statystyk zbiorczych. Widać tu liczbę dodanych pozycji oraz ich średnią ocenę wystawioną przez użytkownika.
 
 ## Technologies
