@@ -47,32 +47,31 @@ There are two buttons at the bottom of the screen: ADD - to add an item that the
 ### View culture texts list
 Displaying the list of cultural texts is presented in the next two pictures.
 
-Zdj. 5
+![Culture List View](./images/CultureListView.png)
 
-Zdj. 6
+![Culture List View - Sort](./images/CultureListView-Sort.png)
 
-Użytkownik może zobaczyć tutaj dodane przez siebie teksty w postaci listy utworzonej przy użyciu „ListView”. Dodatkowo można organizować wyświetlanie listy przez:
-•	Wyszukiwanie (przycisk lupy w prawym górnym rogu) po nazwie, kategorii, roku wydania itp.
-•	Wyświetlanie kategorii (przy użyciu górnego „Spinnera” – rozwijanej listy) np. film, książka
-•	Sortowanie (przy użyciu drugiego „Spinnera” oraz strzałki obok sortującej rosnąco lub malejącą):
-o	Alfabetycznie
-o	Daty dodania wpisu
-o	Daty wydania
-o	Oceny
+The user can see the texts he has added here in the form of a list created with "ListView". Additionally, you can organize the list display by:
+• 	Search (magnifying glass button in the upper right corner) by name, category, release year, etc.
+• 	Displaying categories (using the upper "Spinner" - drop-down list), eg movie, book
+• 	Sorting (using the second "Spinner" and the arrow next to the ascending or descending sort):
+o 	Alphabetically
+o 	Date of adding the entry
+o 	Release date
+o 	Rate
 
-d.	Edytowanie tekstu kultury
-Edytowanie listy tekstów kultury zostało zaprezentowane na zdj. 7. i polega wybraniu tekstu poprzez kliknięcie na niego z poziomu widoku listy tekstów kultury.
+### Editing culture text
+Editing the list of cultural texts is presented in the next picture and it consists in selecting a text by clicking on it from the level of the culture texts list view.
 
-Zdj. 7
+![Edit Culture Text](./images/EditCultureText.png)
 
-Ten widok jest zmodyfikowaną wersją dodawania nowej pozycji. Poza informacją o tym, że użytkownik edytuje teraz pozycje dodano datę dodania pozycji. Zmodyfikowano również przyciski na dole. Są to teraz przyciski DELETE i SAVE. DELETE służy do usunięcia wybranego rekordu, a SAVE do zapisania zmian w pozycji. Po kliknięciu każdego z tych przycisków użytkownik jest przekierowywany do widoku listy tekstów kultury. 
+This view is a modified version of adding a new item. In addition to the information that the user is editing items now, the date of adding the item has been added. The buttons at the bottom have also been modified. These are now DELETE and SAVE buttons. DELETE is used to delete the selected record and SAVE to save changes to the item. After clicking each of these buttons, the user is redirected to the culture texts list view. 
 
-e.	Statystyki
-Statystyki użytkownika zostały pokazana na zdj. 8.
+### Statistics
  
-Zdj. 8
+![Statistics](./images/Statistics.png)
 
-Ta aktywność pozwala na wyświetlanie statystyk dla poszczególnych kategorii tekstów lub statystyk zbiorczych. Widać tu liczbę dodanych pozycji oraz ich średnią ocenę wystawioną przez użytkownika.
+This activity allows you to display statistics for specific text categories or aggregate statistics. You can see the number of items added and their average rating given by the user.
 
 ## Technologies
 Project is created with:
