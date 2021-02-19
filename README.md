@@ -49,16 +49,17 @@ Displaying the list of cultural texts is presented in the next two pictures.
 
 ![Culture List View](./images/CultureListView.png)
 
-![Culture List View - Sort](./images/CultureListView-Sort.png)
+![Culture List View - Sort](./images/CultureListwView-Sort.png)
 
 The user can see the texts he has added here in the form of a list created with "ListView". Additionally, you can organize the list display by:
-• 	Search (magnifying glass button in the upper right corner) by name, category, release year, etc.
-• 	Displaying categories (using the upper "Spinner" - drop-down list), eg movie, book
-• 	Sorting (using the second "Spinner" and the arrow next to the ascending or descending sort):
-o 	Alphabetically
-o 	Date of adding the entry
-o 	Release date
-o 	Rate
+
+1. Search (magnifying glass button in the upper right corner) by name, category, release year, etc.
+2. Displaying categories (using the upper "Spinner" - drop-down list), eg movie, book
+3. Sorting (using the second "Spinner" and the arrow next to the ascending or descending sort):
+	1. Alphabetically
+	2. Date of adding the entry
+	3. Release date
+	4. Rate
 
 ### Editing culture text
 Editing the list of cultural texts is presented in the next picture and it consists in selecting a text by clicking on it from the level of the culture texts list view.
