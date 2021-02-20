@@ -4,10 +4,9 @@
 
 ## Table of contents
 * [General info](#general-info)
-* [Screen shots](#screen-schots)
+* [Features](#features)
 * [Technologies](#technologies)
 * [Setup](#setup)
-* [Features](#features)
 
 ## General info
 
